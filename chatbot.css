@@ -1,4 +1,7 @@
+
 /* Cash Stash Custom Chatbot */
+<link rel="stylesheet" href="chatbot.css">
+<script defer src="chatbot.js"></script>
 .cs-chat-toggle {
   position: fixed;
   right: 18px;
