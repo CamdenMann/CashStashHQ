@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Cash Stash HQ — Multi-City Cash Hunts for Sponsors</title>
+<meta name="description" content="Cash Stash is a multi-city social cash hunt network helping sponsors reach local audiences through high-energy clue drops and real-world attention." />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#050805" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css" />
+<script defer src="site-data.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">$</span><span>Cash Stash <b>HQ</b></span></a>
+    <nav class="nav">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="cities.html">Cities</a>
+        <a href="rules.html">Rules</a>
+        <a href="index.html#partner">Partner</a>
+      </div>
+    </nav>
+    <a class="btn btn-primary desktop-cta" href="index.html#partner">Partner With Cash Stash</a>
+  </div>
+</header>
+<main>
+<section class="hero hero-glow">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Multi-city social cash hunts built for sponsors</p>
+      <h1>One sponsor. Multiple cities. Thousands of people chasing the same story.</h1>
+      <p class="lead">Cash Stash turns local attention into a real-world event. We hide cash, post clues, drive traffic to social pages, and put sponsors directly in front of high-energy local audiences.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#partner">Partner With Cash Stash</a>
+        <a class="btn btn-secondary" href="cities.html">View City Network</a>
+      </div>
+      <div class="proof-strip" id="statsStrip"></div>
+    </div>
+    <div class="impact-card">
+      <div class="live-dot"><span></span> Sponsor-ready network</div>
+      <h2>Built for brands that want attention people actually care about.</h2>
+      <p>Instead of another forgettable ad, sponsors become part of a citywide hunt people want to follow, share, and talk about.</p>
+      <div class="prize-visual"><div class="cash-stack">$</div><div><strong>High-stakes local content</strong><small>Clues, winner posts, sponsor shoutouts, and city-specific pages.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-band">
+  <div class="container split">
+    <div><p class="eyebrow">Why sponsors care</p><h2>We make ads feel like a game.</h2></div>
+    <div class="feature-grid">
+      <div class="feature"><h3>Local attention</h3><p>Each city account speaks to its own local audience instead of blasting generic ads.</p></div>
+      <div class="feature"><h3>Social-first reach</h3><p>Content is built for Instagram and TikTok: fast, simple, visual, and shareable.</p></div>
+      <div class="feature"><h3>Multi-city campaigns</h3><p>A sponsor can activate one city or run the same campaign across the whole network.</p></div>
+      <div class="feature"><h3>Proof through action</h3><p>People do not just scroll past. They follow clues, show up, tag friends, and watch winner content.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">City network</p><h2>Active Cash Stash cities</h2><p>Each city has its own local audience, Instagram account, rules, and sponsor opportunities.</p></div>
+    <div class="city-grid" id="homeCityGrid"></div>
+  </div>
+</section>
+
+<section class="section green-panel" id="partner">
+  <div class="container partner-grid">
+    <div>
+      <p class="eyebrow">For sponsors</p>
+      <h2>Want Cash Stash to promote your brand across the network?</h2>
+      <p>Use this form for network-wide campaigns, multi-city sponsor ideas, product launches, events, and brand partnerships. No public pricing listed — we build the campaign around the sponsor goal.</p>
+      <ul class="check-list">
+        <li>City-specific or multi-city activation</li>
+        <li>Sponsor shoutouts and tagged content</li>
+        <li>Traffic to your business page or campaign link</li>
+        <li>Winner content and follow-up exposure</li>
+      </ul>
+    </div>
+    <form class="form glass" id="nationalForm" method="POST">
+      <input type="hidden" name="form_type" value="Network Sponsor Inquiry">
+      <label>Business / brand name<input name="business_name" required placeholder="Business name"></label>
+      <label>Your name<input name="name" required placeholder="Your name"></label>
+      <label>Email<input type="email" name="email" required placeholder="you@company.com"></label>
+      <label>Which cities are you interested in?<select name="cities" required><option value="">Choose one</option><option>All cities / network-wide</option><option>Specific cities</option><option>Not sure yet</option></select></label>
+      <label>What are you trying to promote?<textarea name="message" rows="5" placeholder="Tell us about your brand, product, event, or campaign goal."></textarea></label>
+      <button class="btn btn-primary full" type="submit">Send Partnership Request</button>
+      <p class="form-note">This goes to the Cash Stash partnership inbox.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><a class="brand" href="index.html"><span class="brand-mark">$</span><span>Cash Stash</span></a><p>Multi-city cash hunts for sponsors, creators, and local communities.</p></div>
+    <div class="footer-links"><a href="cities.html">Cities</a><a href="rules.html">Rules</a><a href="index.html#partner">Partner</a></div>
+  </div>
+</footer>
+</body>
+</html>
