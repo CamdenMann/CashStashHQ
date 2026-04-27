@@ -1,7 +1,8 @@
 /* Cash Stash Custom Sponsor-Closing Chatbot
    Edit CONFIG below when you have your real domain/form links.
 */
-
+<link rel="stylesheet" href="chatbot.css">
+<script defer src="chatbot.js"></script>
 (function () {
   const CONFIG = {
     teamName: "Cash Stash HQ",
