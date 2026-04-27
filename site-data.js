@@ -29,7 +29,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashraleigh",
       "instagram": "https://www.instagram.com/cashstashraleigh",
       "form": "https://formspree.io/f/REPLACE_RALEIGH_FORM",
-     
+      "sponsors": []
     },
     {
       "id": "durham",
@@ -38,7 +38,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashdurham",
       "instagram": "https://www.instagram.com/cashstashdurham",
       "form": "https://formspree.io/f/REPLACE_DURHAM_FORM",
-  
+      "sponsors": []
     },
     {
       "id": "wilmington",
@@ -47,7 +47,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashwilmington",
       "instagram": "https://www.instagram.com/cashstashwilmington",
       "form": "https://formspree.io/f/REPLACE_WILMINGTON_FORM",
-      
+      "sponsors": []
     },
     {
       "id": "grand-rapids",
@@ -56,7 +56,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashgr",
       "instagram": "https://www.instagram.com/cashstashgr",
       "form": "https://formspree.io/f/REPLACE_GRAND_RAPIDS_FORM",
-     
+      "sponsors": []
     },
     {
       "id": "dfw",
@@ -65,7 +65,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashdfw",
       "instagram": "https://www.instagram.com/cashstashdfw",
       "form": "https://formspree.io/f/REPLACE_DFW_FORM",
-     
+      "sponsors": []
     },
     {
       "id": "houston",
@@ -74,7 +74,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashhtx",
       "instagram": "https://www.instagram.com/cashstashhtx",
       "form": "https://formspree.io/f/REPLACE_HOUSTON_FORM",
-  
+      "sponsors": []
     },
     {
       "id": "louisiana",
@@ -83,7 +83,7 @@ window.CASH_STASH_DATA = {
       "handle": "@cashstashlouisiana",
       "instagram": "https://www.instagram.com/cashstashlouisiana",
       "form": "https://formspree.io/f/REPLACE_LOUISIANA_FORM",
-    
+      "sponsors": []
     },
     {
       "id": "new-orleans",
@@ -92,7 +92,7 @@ window.CASH_STASH_DATA = {
       "handle": "@nolacashstash",
       "instagram": "https://www.instagram.com/nolacashstash",
       "form": "https://formspree.io/f/REPLACE_NOLA_FORM",
- 
+      "sponsors": []
     }
   ]
 };
