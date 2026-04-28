@@ -77,10 +77,10 @@ window.CASH_STASH_DATA = {
       "sponsors": []
     },
     {
-      "id": "louisiana",
-      "name": "Louisiana",
+      "id": "BatonRouge",
+      "name": "BatonRouge",
       "state": "LA",
-      "handle": "@cashstashlouisiana",
+      "handle": "@cashstashBR",
       "instagram": "https://www.instagram.com/cashstashlouisiana",
       "form": "https://formspree.io/f/REPLACE_LOUISIANA_FORM",
       "sponsors": []
